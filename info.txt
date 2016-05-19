@@ -1,0 +1,7 @@
+Name: Zoom image;
+Version: 2.3.1;
+Support Core: 13.8.14;
+Description: Позволяет просматривать увеличенные изображения по клику. Формирует галерею. Просмотр изображений, карт, ютуб-видео в всплывающем окне;
+Author: Otshelnik-Fm;
+Author URI: http://wppost.ru/author/otshelnik-fm/;
+Add-on URI: http://wppost.ru/products/zoom-image-uvelichivaem-izobrazheniya/;

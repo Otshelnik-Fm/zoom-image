@@ -1,52 +1,52 @@
 #fancybox-loading {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	width:36px;
-	height:36px;
-	margin-top: -10px;
-	margin-left: -20px;
-	z-index: 1104;
-	display: none;
-	background:url(data:image/gif;base64,R0lGODlhJAAkAKIEAImJiTIyMsjIyO3t7f///wAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFKAAEACwAAAAAJAAkAAADbEi63P4wykmrvTjrzbv/1iAOy0gqZjmqIpOiK9zKJ/HSbH3vMe7bPd7sJ9QFe8BhMcdsJo3K4/DpXP6oRCm0hu1au15tFfktk8XZ6NSs3rrQ4fZbnnaP6XEu2w7e3/VwfiCDhIWGh4iJiosMCQAh+QQFCgAEACwCAAgABAAUAAADCSi63P4wyklVAgAh+QQFCgAEACwCAAgACwAUAAADKhga1PJiMQdlIzCumy19HlZtn6Zw41mGHSmCbqu+5kSzqS3rOQrPO58gAQAh+QQFCgAEACwCAAgAEgAUAAADSQgK1PGhEUHFYg7KapeEUcNdnyZWZPZsqKeGU6uU60mlBMjebm7GvNlr1xH6asAi5ggb9XQ2Ja0pW0KTuKvTqK1Oidnf1iquJAAAIfkEBQoABAAsAgAIABkAFAAAA14oKtTwoJFAg1yYOSirbdkiQVHjXaFGkF2FhiNnumAaPy31Znc50YSUijXT1WAbXPETtCV9pyPvmWMKe9UdBrvUiqhd6Rb8MzaRK1nZ6kwr114FFy7+uqHAKzl6FiQAACH5BAUKAAQALAIACAAgABQAAAN+ODrU8qIRQIEMOEgoFnOQVFlNpoGPt4XNeGVrusRRW70YraL1dJcw3o7AEf0IJt2MZ6TgTkTIsGhzAnPCZfTRJCGD246W6rN+seEpq+xNZhW07lMJZ1bbYI6ae5+/P2FyV1B6Y2sug3SAZIhnhFKGfGx+aZE9jW6VdYF9iTwJACH5BAUKAAQALAkACAAZABQAAANoODrU8qIRQIEMOCzmoKxWk2mLBEUNeGWb6aXVirXd88UiW9bohBMjGuF0o8hICpcNZszNdsOXrwnUJXnFUPV5jS6n2iCUyAxbOd6eyolEk8FH4Xu9bSvVP3F3nj/fs3FjUnR6boN9GAkAIfkEBQoABAAsEAAIABIAFAAAA0k4OtTyohFAwWIOymqXhFHDXZ8mVmT2bKinhlOrlOtJpQTI3m5uxrzZa9cR+mrAIuYIG/V0NiWtKVtCk7ir06itTonZ39YqriQAACH5BAUKAAQALBcACAALABQAAAMqODrU8mIxB2UjMK6bLX0eVm2fpnDjWYYdKYJuq77mRLOpLes5Cs87nyABADs=);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width:36px;
+    height:36px;
+    margin-top: -10px;
+    margin-left: -20px;
+    z-index: 1104;
+    display: none;
+    background:url(data:image/gif;base64,R0lGODlhJAAkAKIEAImJiTIyMsjIyO3t7f///wAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFKAAEACwAAAAAJAAkAAADbEi63P4wykmrvTjrzbv/1iAOy0gqZjmqIpOiK9zKJ/HSbH3vMe7bPd7sJ9QFe8BhMcdsJo3K4/DpXP6oRCm0hu1au15tFfktk8XZ6NSs3rrQ4fZbnnaP6XEu2w7e3/VwfiCDhIWGh4iJiosMCQAh+QQFCgAEACwCAAgABAAUAAADCSi63P4wyklVAgAh+QQFCgAEACwCAAgACwAUAAADKhga1PJiMQdlIzCumy19HlZtn6Zw41mGHSmCbqu+5kSzqS3rOQrPO58gAQAh+QQFCgAEACwCAAgAEgAUAAADSQgK1PGhEUHFYg7KapeEUcNdnyZWZPZsqKeGU6uU60mlBMjebm7GvNlr1xH6asAi5ggb9XQ2Ja0pW0KTuKvTqK1Oidnf1iquJAAAIfkEBQoABAAsAgAIABkAFAAAA14oKtTwoJFAg1yYOSirbdkiQVHjXaFGkF2FhiNnumAaPy31Znc50YSUijXT1WAbXPETtCV9pyPvmWMKe9UdBrvUiqhd6Rb8MzaRK1nZ6kwr114FFy7+uqHAKzl6FiQAACH5BAUKAAQALAIACAAgABQAAAN+ODrU8qIRQIEMOEgoFnOQVFlNpoGPt4XNeGVrusRRW70YraL1dJcw3o7AEf0IJt2MZ6TgTkTIsGhzAnPCZfTRJCGD246W6rN+seEpq+xNZhW07lMJZ1bbYI6ae5+/P2FyV1B6Y2sug3SAZIhnhFKGfGx+aZE9jW6VdYF9iTwJACH5BAUKAAQALAkACAAZABQAAANoODrU8qIRQIEMOCzmoKxWk2mLBEUNeGWb6aXVirXd88UiW9bohBMjGuF0o8hICpcNZszNdsOXrwnUJXnFUPV5jS6n2iCUyAxbOd6eyolEk8FH4Xu9bSvVP3F3nj/fs3FjUnR6boN9GAkAIfkEBQoABAAsEAAIABIAFAAAA0k4OtTyohFAwWIOymqXhFHDXZ8mVmT2bKinhlOrlOtJpQTI3m5uxrzZa9cR+mrAIuYIG/V0NiWtKVtCk7ir06itTonZ39YqriQAACH5BAUKAAQALBcACAALABQAAAMqODrU8mIxB2UjMK6bLX0eVm2fpnDjWYYdKYJuq77mRLOpLes5Cs87nyABADs=);
 }
 #fancybox-overlay {
-	background: #2a3740;
-	opacity: 0.85;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 1100;
-	display: none;
+    background: #2a3740;
+    opacity: 0.85;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1100;
+    display: none;
 }
 #fancybox-tmp {
-	display: none;
+    display: none;
 }
 #fancybox-wrap {
-	position: absolute;
-	z-index: 1101;
-	display: none;
-	margin: 5px 0 0;
+    position: absolute;
+    z-index: 1101;
+    display: none;
+    margin: 5px 0 0;
     max-height: 95%;
     max-width: 99%;
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
 }
 #fancybox-outer {
-	position: inherit;
+    position: inherit;
 }
 #fancybox-content {
-	box-shadow: 0 0 15px 3px #000;
-	border-radius: 5px;
-	position: relative;
-	overflow: hidden;
-	z-index: 1102;
-	margin: 0 auto;
-	min-height: 80px;
-	background: #000;
+    box-shadow: 0 0 15px 3px #000;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1102;
+    margin: 0 auto;
+    min-height: 80px;
+    background: #000;
 }
 #fancybox-error {
     color: #e53935;
@@ -55,29 +55,29 @@
     text-align: center;
 }
 #fancybox-img {
-	border-radius: 5px;
-	width: 100%;
+    border-radius: 5px;
+    width: 100%;
 }
 #fancybox-frame {
-	width: 100%;
-	height: 100%;
-	display: block;
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 #fancybox-left, #fancybox-right {
-	display: none;
-	position: absolute;
-	bottom: 15%;
-	height: 70%;
-	width: 35%;
-	cursor: pointer;
-	z-index: 1102;
+    display: none;
+    position: absolute;
+    bottom: 15%;
+    height: 70%;
+    width: 35%;
+    cursor: pointer;
+    z-index: 1102;
 }
 
 #fancybox-left {
-	left: -25px;
+    left: -25px;
 }
 #fancybox-right {
-	right: -25px;
+    right: -25px;
 }
 #fancybox-left-ico, #fancybox-right-ico {
     left: -9999px;
@@ -87,7 +87,7 @@
     z-index: 1102;
 }
 #fancybox-left-ico::before {
-	background: #fff;
+    background: #fff;
     background: rgba(255, 255, 255, 0.5);
     border-radius:0 5px 5px 0;
     color: #000;
@@ -97,7 +97,7 @@
     padding: 14px 6px;
 }
 #fancybox-right-ico::before {
-	background: #fff;
+    background: #fff;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 5px 0 0 5px;
     color: #000;
@@ -113,14 +113,14 @@ a#fancybox-left:hover {
     outline: medium none;
 }
 #fancybox-left:hover span {
-	left: 25px;
+    left: 25px;
 }
 #fancybox-right:hover span {
-	left: auto;
-	right: 25px;
+    left: auto;
+    right: 25px;
 }
 #fancybox-close {
-	font: 14px/23px Droid Sans,sans-serif;
+    font: 14px/23px Droid Sans,sans-serif;
     cursor: pointer;
     padding: 7px 6px;
     position: absolute;
@@ -129,7 +129,7 @@ a#fancybox-left:hover {
     z-index: 1103;
 }
 #fancybox-close::before {
-	color: #b72e2a;
+    color: #b72e2a;
     content: "\f00d";		/* fa-times unicode*/
     font-family: FontAwesome;
     font-size: 36px;
@@ -138,11 +138,11 @@ a#fancybox-left:hover {
     text-decoration: none;
 }
 #fancybox-wrap a#fancybox-close:hover::before {
-	color: #E53935;
+    color: #E53935;
 }
 #fancybox-left-ico.fancy-ico:hover::before,
 #fancybox-right-ico.fancy-ico:hover::before {
-	background: #fff;
+    background: #fff;
     background: rgba(255, 255, 255, 0.7);
     color: #5a0d0c;
 }
@@ -155,7 +155,7 @@ a#fancybox-left:hover {
     z-index: 1102;
 }
 #fancybox-title-over {
-	background: #000;
+    background: #000;
     background: rgba(0, 0, 0, 0.7);
     border-radius: 0 0 3px 3px;
     display: table;

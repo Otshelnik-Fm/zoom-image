@@ -1,6 +1,6 @@
 Name: Zoom image;
-Version: 2.3.3;
-Support Core: 14.3.0;
+Version: 2.4.0;
+Support Core: 15.0.0;
 Description: Позволяет просматривать увеличенные изображения по клику. Формирует галерею. Просмотр изображений, карт, ютуб-видео в всплывающем окне;
 Author: Otshelnik-Fm;
 Author URI: https://codeseller.ru/author/otshelnik-fm/;

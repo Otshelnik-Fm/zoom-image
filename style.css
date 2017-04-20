@@ -108,7 +108,7 @@
 #fancybox-right:focus,
 a#fancybox-right:hover,
 a#fancybox-left:hover {
-    outline: medium none;
+    outline: none;
 }
 #fancybox-left:hover span {
     left: 25px;
